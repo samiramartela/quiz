@@ -12,19 +12,39 @@
   </head>
   <body>
     <div class="slider-container">
-      <div
-        class="slide active"
-        style="
-          background-image: url('../imagens/pexels-alexandre-saraiva-carniato-583650-17011059.jpg');
-        "
-      ></div>
+      <div class="card">
+        <div class="card-header animated-bg" id="header">
+          <img
+            id="card-img"
+            src="../imagens/pexels-pixabay-207353.jpg"
+            alt=""
+          />
+        </div>
+        <div class="card-content">
+          <h3 class="card-title animated-bg animatedd-bg-text" id="title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            blanditiis!
+          </h3>
+          <p class="card-excerpt" id="excerpt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            officia.
+            <span class="animated-bg animatedd-bg-text">&nbsp;</span>
+            <span class="animated-bg animatedd-bg-text">&nbsp;</span>
+            <span class="animated-bg animatedd-bg-text">&nbsp;</span>
+          </p>
+        </div>
+      </div>
+      <div class="slide active"></div>
+
       <button class="arrow left-arrow" id="left">
         <i class="fas fa-arrow-left"></i>
       </button>
+
       <button class="arrow right-arrow" id="right">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
+
     <script src="scriptQuiz.js"></script>
   </body>
 </html>
