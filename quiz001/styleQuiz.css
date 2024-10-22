@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-h1 {
-  background-color: #fff;
-  z-index: 100;
-}
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,36 +19,12 @@ body {
   transition: 0.4s;
 }
 
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: -1;
-}
-
 .slider-container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   height: 70vh;
   width: 70vw;
   position: relative;
   overflow: hidden;
-}
-
-.slide {
-  opacity: 0;
-  height: 100vh;
-  width: 100vw;
-  background-position: center center;
-  background-size: cover;
-  position: absolute;
-  top: -15vh;
-  left: -15vw;
-  transition: 0.4s ease;
-  z-index: -1;
 }
 
 .slide.active {
@@ -85,29 +56,63 @@ body::before {
   right: calc(15vw - 65px);
 }
 
-#card-img {
-  max-width: 100%;
-}
-
-.card {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+/* .card {
+  
   border-radius: 10px;
   width: 100%;
   height: 100%;
-}
+} */
 
-.card-header {
-  height: 200px;
-}
-
-.card-header img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.card-content {
+.quiz-container {
   background-color: #fff;
-  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button#submit {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+button#submit:hover {
+  background-color: #732d91;
+}
+
+button#submit:focus {
+  outline: none;
+  background-color: #5e3370;
 }

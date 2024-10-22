@@ -13,39 +13,35 @@
   <body>
     <div class="slider-container">
       <div class="card">
-        <div class="card-header animated-bg" id="header">
-          <!-- <img
-            id="card-img"
-            src="../imagens/pexels-pixabay-207353.jpg"
-            alt=""
-          /> -->
-          <h2>O termo supressão de vegetação natural pode ser definido como a recuperação de uma área composta por vegetação degradada, por meio de espécies nativas da região. A afirmativa é verdadeira ou falsa?</h2>
-        </div>
-        <div class="card-content">
-          <h3 class="card-title animated-bg animatedd-bg-text" id="title">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            blanditiis!
-          </h3>
-          <p class="card-excerpt" id="excerpt">
-            <form class="form">
-              <input type="radio" name="reposta01" value="ver">Verdadeira
-              <br>
-              <input type="radio" name="reposta01" value="fal">Falsa
-              <br>
-              <!-- <input type="radio" name="reposta01" value="003">"Resposta 003"
-              <br>
-              <input type="radio" name="reposta01" value="004">"Resposta 004"
-              <br> -->
-
-            </form>
-            <span class="animated-bg animatedd-bg-text">&nbsp;</span>
-            <span class="animated-bg animatedd-bg-text">&nbsp;</span>
-            <span class="animated-bg animatedd-bg-text">&nbsp;</span>
-          </p>
+        <div class="quiz-container" id="quiz">
+          <div class="quiz-header">
+            <h2 id="question">
+              O termo supressão de vegetação natural pode ser definido como a
+              recuperação de uma área composta por vegetação degradada, por meio
+              de espécies nativas da região. A afirmativa é verdadeira ou falsa?
+            </h2>
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="a" class="answer" />
+                <label for="a" id="a_text">Question</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="b" class="answer" />
+                <label for="b" id="b_text">Question</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="c" class="answer" />
+                <label for="c" id="c_text">Question</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="d" class="answer" />
+                <label for="d" id="d_text">Question</label>
+              </li>
+            </ul>
+          </div>
+          <button id="submit">Confirmar</button>
         </div>
       </div>
-      <div class="slide active"></div>
-
       <button class="arrow left-arrow" id="left">
         <i class="fas fa-arrow-left"></i>
       </button>
