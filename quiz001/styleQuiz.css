@@ -33,6 +33,7 @@ body {
 
 .arrow:focus {
   outline: 0;
+  cursor: pointer;
 }
 
 .left-arrow {
@@ -91,10 +92,12 @@ button#submit {
 }
 
 button#submit:hover {
-  background-color: #732d91;
+  /* background-color: #732d91; */
+  background-color: orange;
 }
 
 button#submit:focus {
   outline: none;
-  background-color: #5e3370;
+  /* background-color: #5e3370; */
+  background-color: orange;
 }

@@ -85,7 +85,15 @@ submitBtn.addEventListener('click', () => {
     } else {
       quiz.innerHTML = `
         <h2> Você respondeu ${score}/${quizData.length} perguntas corretamente</h2>
-        <button onclick="location.reload()">Recarregar</button>`;
+        <button onclick="location.reload()" id="submit">De novo</button>`;
     }
   }
 });
+
+function visitPage() {
+  window.location = '../index.html';
+}
+
+// {
+//   /* <button onclick="visitPage();">Visit Page Now</button>; */
+// }
