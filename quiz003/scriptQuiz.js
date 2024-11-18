@@ -66,6 +66,8 @@ const quizData = [
       'A Caatinga, por ser um bioma adaptado a condições climáticas mais secas, é menos vulnerável aos impactos das mudanças climáticas, como a ocorrência de secas mais prolongadas.',
     a: 'Verdadeiro',
     b: 'Falso',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'b',
   },
   {
@@ -73,6 +75,8 @@ const quizData = [
       'O Cerrado desempenha um papel fundamental para a hidrografia brasileira, sendo conhecido como a "caixa d\'água" do país. Isso ocorre porque muitos dos principais rios brasileiros têm suas nascentes nesse bioma.',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'a',
   },
   {

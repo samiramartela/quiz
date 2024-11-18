@@ -11,6 +11,8 @@ const quizData = [
     question: 'As queimadas podem causar danos à saúde humana.',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'a',
   },
   {
@@ -26,12 +28,16 @@ const quizData = [
       'As queimadas ocorrem são sempre prejudiciais e não fazem parte da dinâmica natural de nenhum bioma brasileiro?',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'b',
   },
   {
     question: 'As queimadas contribuem para o aumento do efeito estufa.',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'a',
   },
   {
@@ -65,6 +71,8 @@ const quizData = [
       'Queimadas podem ser controladas e benéficas em algumas situações, como na manutenção de ecossistemas específicos',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'a',
   },
   {
@@ -72,6 +80,8 @@ const quizData = [
       'O INPE disponibiliza dados de focos de queima em tempo real, permitindo o acompanhamento imediato de incêndios florestais.',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'b',
   },
 ];

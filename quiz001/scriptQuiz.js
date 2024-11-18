@@ -4,13 +4,18 @@ const quizData = [
       'O termo supressão de vegetação natural pode ser definido como a recuperação de uma área composta por vegetação degradada, por meio de espécies nativas da região. A afirmativa é verdadeira ou falsa?',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'b',
+    
   },
   {
     question:
       'O sistema PRODES, desenvolvido pelo do Instituto Nacional de Pesquisas Espaciais (INPE), monitora o desmatamento nas florestas primárias localizadas nos nove estados da Amazônia Legal. A afirmativa é verdadeira ou falsa?',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'a',
   },
   {
@@ -18,6 +23,8 @@ const quizData = [
       'Devido ao alto custo de imagens de satélite, o PRODES realiza o monitoramento do desmatamento na floresta Amazônica a cada cinco anos. A afirmativa é verdadeira ou falsa?',
     a: 'Verdadeira',
     b: 'Falsa',
+    c: 'Não sei',
+    d: 'Fake News',
     correct: 'b',
   },
   {
