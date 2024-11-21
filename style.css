@@ -39,13 +39,16 @@ body {
 
 .split.bottom {
     bottom: 0;
-    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
 
 }
 
 .container2 {
     display: flex;
-    width: 90vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -64,6 +67,8 @@ a:hover {
   font-weight: 400;
   font-size: 30px;
   transition: ease-in;
+  -webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #000;
 }
 
 /* a:visited {
@@ -90,7 +95,7 @@ a:hover {
     bottom: 20px;
     left: 20px;
     margin: 0;
-    opacity: 0;
+    opacity: 1;
 }
 
 .panel.active {
